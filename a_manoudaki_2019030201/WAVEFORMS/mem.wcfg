@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/CHRYSHIDA/Desktop/ProxwrhmenhLogikhSxediash/Ergasia1/MEMSTAGE_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="memstage_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/memstage_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_tb/byteop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">byteop</obj_property>
+      <obj_property name="ObjectShortName">byteop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_tb/mem_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_wren</obj_property>
+      <obj_property name="ObjectShortName">mem_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_tb/alu_mem_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_mem_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_mem_addr[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_tb/mem_datain" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_datain[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_datain[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_tb/mm_rddata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mm_rddata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mm_rddata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_tb/data_din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_din[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_tb/data_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_addr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">data_addr[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_tb/data_we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">data_we</obj_property>
+      <obj_property name="ObjectShortName">data_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_tb/stopclk" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">stopclk</obj_property>
+      <obj_property name="ObjectShortName">stopclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_tb/mm_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mm_wren</obj_property>
+      <obj_property name="ObjectShortName">mm_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_tb/mm_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mm_addr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">mm_addr[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_tb/mm_wrdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mm_wrdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mm_wrdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_tb/data_dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_dout[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/memstage_tb/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>
