@@ -1,5 +1,5 @@
-# computer-organization-2022
-Full project of the subject Computer Organization in TUC
+# computer-architecture-2022
+Full project of the subject Computer Architecture in TUC
 
 Subject of first project: Single circuit processor design
 
