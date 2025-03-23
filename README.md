@@ -1,5 +1,5 @@
 # computer-architecture-2022
-Full project of the subject Computer Architecture in TUC
+Full project of the semester course Computer Architecture in TUC
 
 Subject of first project: Single circuit processor design
 
